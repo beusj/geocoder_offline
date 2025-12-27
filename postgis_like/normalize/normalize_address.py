@@ -12,7 +12,6 @@ from .lookup_tables import (
 )
 from .state_extract import state_extract
 from .location_extract import location_extract
-from .utils import cull_null
 
 
 def normalize_address(raw_input: str) -> NormAddress:
@@ -46,7 +45,6 @@ def normalize_address(raw_input: str) -> NormAddress:
         return result
     
     raw_input = raw_input.strip()
-    ws = r'[ ,.\t\n\f\r]'
     
     # Extract address number (starts with digit)
     address_match = re.search(r'^([0-9]+[A-Za-z]?\d*)', raw_input)

@@ -83,7 +83,7 @@ SECONDARY_UNIT_LOOKUP = [
     {"name": "FLOOR", "abbrev": "FL"},
     {"name": "FL", "abbrev": "FL"},
     {"name": "FRONT", "abbrev": "FRNT"},
-    {"name": "HANGER", "abbrev": "HNGR"},
+    {"name": "HANGAR", "abbrev": "HNGR"},
     {"name": "KEY", "abbrev": "KEY"},
     {"name": "LOBBY", "abbrev": "LBBY"},
     {"name": "LOT", "abbrev": "LOT"},
